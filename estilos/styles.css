@@ -1,0 +1,184 @@
+
+:root{
+    --bg-color:#2a2a2a;
+    --primary-color:#b1dd00;
+    --secundary-color:#143954;
+}
+
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.flex-container{
+    display: flex;
+    border: black;
+    /*background-color: #b1dd00;*/
+   
+}
+
+.flex-logo{
+    display: flex;
+    border-radius: 1px solid black;
+  
+}
+.flex-imagen{
+    display: flex;
+    width: 15vw;
+    height: 30vh;
+    justify-content:start;
+}
+
+
+.flex-link{
+    display: flex;
+    width: 55vw;
+    font-size: 1.2em;
+    list-style-type: none;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
+.flex-link a{
+    color: black;
+    
+}
+
+.flex-compra{
+    display: flex;
+    
+    width: 29vw;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+.flex-carrito {
+    
+  
+    align-items: center;
+    width: 1.5vw;
+    height: 3vh;
+    
+}
+
+.flex-main{
+    display: flex;
+   /* background-color: aqua;*/
+    width: 100vw;
+    height: 40vh;
+    justify-content:start;
+    border: 1px solid black;
+}
+
+.flex-subtitulo{
+    /*background-color: burlywood;*/
+    /*border: 2px solid blue;*/
+    display: flex;
+    /*background-color: grey;*/
+    /*color: #b1dd00;*/
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    width: 40vw;
+    margin-left: 5%;
+    
+}
+.flex-subtexto{
+    display: flex;
+    color: black;
+
+
+
+
+}
+
+.flex-modopago{
+    display: flex;
+    /*border: 1px solid black;*/
+    width: 28vw;
+    margin-top: 5%;
+    
+}
+.flex-item1{
+    color: chocolate;
+    /*border: 1px solid red;*/
+    padding-left: 70%;
+    margin-right: 25%;
+}
+
+.flex-comocomprar{
+    display: flex;
+    height: 12vh;
+    width: 8vw;
+    
+
+}
+
+.flex-item2{
+    color: red;
+    /*border: 1px solid red;*/
+    margin-right: 25%;
+}
+
+.flex-pagar{
+    display: flex;
+    height: 12vh;
+    width: 10vw;
+    
+}
+
+.flex-item3{
+    color: goldenrod;
+    /*border: 1px solid red;*/
+    margin-right: 25%;
+}
+
+.flex-envio{
+    display: flex;
+    height: 12vh;
+    width: 10vw;
+}
+
+
+.flex-item4{
+    color: gray;
+    /*border: 1px solid red;*/
+    
+}
+
+.flex-ubicacion{
+    display: flex;
+    height: 12vh;
+    width: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
